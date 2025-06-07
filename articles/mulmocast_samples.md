@@ -26,7 +26,7 @@ https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/
 mulmo movie food.json
 ```
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/food.json)
-- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blog/main/scripts/output/food.mp4)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
 
 
 
