@@ -18,6 +18,22 @@ mulmo pdf scripts/samples/attention.json
 - [アウトプット PDF](https://github.com/yuki0627/zenn-content/blob/6a9b7dd9c9c1f7101825a0e02a6c80748b572f99/output/attention_is_all_you_need.pdf)
 
 
+## 動画生成
+
+:::message
+OpenAIとGCPの設定が必要
+:::
+
+
+コマンド
+
+```sh
+mulmo movie scripts/snakajima/spacex_shorts.json
+```
+
+- [インプット JSON](https://github.com/receptron/mulmocast-cli/blob/main/scripts/snakajima/spacex_shorts.json)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/spacex_shorts.mp4)
+
 ## 写真から動画生成
 
 https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/
@@ -27,6 +43,4 @@ mulmo movie food.json
 ```
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/food.json)
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
-
-
 
