@@ -20,6 +20,11 @@ mulmo pdf scripts/samples/attention.json
 
 ## 動画生成
 
+:::message
+OpenAIとGCPの設定が必要
+:::
+
+
 コマンド
 
 ```sh
