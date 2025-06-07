@@ -33,3 +33,14 @@ mulmo movie scripts/snakajima/spacex_shorts.json
 
 - [インプット JSON](https://github.com/receptron/mulmocast-cli/blob/main/scripts/snakajima/spacex_shorts.json)
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/spacex_shorts.mp4)
+
+## 写真から動画生成
+
+https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/
+
+```sh
+mulmo movie food.json
+```
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/food.json)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
+
