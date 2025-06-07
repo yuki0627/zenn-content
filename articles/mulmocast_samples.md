@@ -25,7 +25,7 @@ mulmo movie scripts/test/test_media.json
 ```
 
 - [インプット JSON](https://github.com/receptron/mulmocast-cli/blob/main/scripts/test/test_media.json)
-- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blog/main/scripts/output/test_media.mp4)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blog/main/output/test_media.mp4)
 
 
 ## 動画生成
