@@ -1,0 +1,132 @@
+f   {
+  "$mulmocast": {
+    "version": "1.0"
+  },
+  "title": "Media Test",
+  "references": [
+    {
+      "url": "https://www.mulmocast.com",
+      "title": "Mulmocast",
+      "type": "article"
+    }
+  ],
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "voiceId": "shimmer",
+        "displayName": {
+          "en": "Presenter"
+        }
+      }
+    }
+  },
+  "beats": [
+    {
+      "speaker": "Presenter",
+      "text": "今日は虎の門にご飯にいったよ。虎の門は迷宮で、駅から目的地まで何度も迷ったよ。",
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/mulmocast_credit.png"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "前菜の茶そうめん、しらえびのおすし、こあゆ。あゆはこれからが旬だね。わかあゆは柔らかく、季節の香りがするね。",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8289.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "お吸い物。ホワイトアスパラとときしらず。ときしらずって、面白い名前だよね。これもこの時期にとれる鮭",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8294.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "おつくり。こちと、まぐろ、とりがい。ポン酢、しょうゆの組み合わせはむずかしいよね。こちは、ふぐのような食感なので食べ方もふぐと同じだよね。",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8296.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "えぼ鯛と、夏柑をやいたものと、おこぜのからあげ。おこぜは、ふわふわで、衣の香ばしさとの組み合わせが最高。",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8304.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": " なすとはも。はもは骨切りが完璧でとてもおいしい！！",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8308.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "和牛の土瓶蒸し。和牛はあぶらののりが絶妙で、口の中でとろけるよ！",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8313.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "食事はお好みで選べるんだ。ぼくはそばにしたよ",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8314.JPG"
+        }
+      }
+    },
+    {
+      "speaker": "Presenter",
+      "text": "素敵な時間をありがとう！！",
+      "duration": 0.5,
+      "image": {
+        "type": "image",
+        "source": {
+          "kind": "path",
+          "path": "./photo/379A8315.JPG"
+        }
+      }
+    }
+  ]
+}
