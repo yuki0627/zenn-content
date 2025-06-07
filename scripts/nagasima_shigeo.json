@@ -1,0 +1,42 @@
+{
+  "$mulmocast": {
+    "version": "1.0",
+    "credit": "closing"
+  },
+  "title": "Farewell to “Mr. Baseball”: The Legacy of Shigeo Nagashima",
+  "lang": "en",
+  "references": [
+    {
+      "url": "https://www3.nhk.or.jp/news/html/20250603/k10014824051000.html",
+      "title": "Baseball legend Shigeo Nagashima dies at 89",
+      "type": "article"
+    }
+  ],
+  "beats": [
+    {
+      "text": "A busy office freezes as a smartphone flashes an NHK breaking-news banner: “Shigeo Nagashima, national baseball icon, passes away at 89 on 3 June 2025.” The nerdy worker with glasses looks up, stunned—an era has ended. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+      "text": "Who was he? Nicknamed “Mr. Baseball,” Nagashima embodied post-war Japan’s hopes, electrifying fans with charisma and clutch hitting for the Yomiuri Giants."
+    },
+    {
+      "text": "On the field he racked up a .305 batting average, 2,471 hits and 444 home runs, steering the Giants to nine straight Japan Series titles from 1965-73 alongside Sadaharu Oh. :contentReference[oaicite:1]{index=1}"
+    },
+    {
+      "text": "Switch to the dugout: in a swirl of chalk-board strategy doodles, manager Nagashima guides the team to dramatic championships in 1994 and 2000—his famous \"Miracle V\" grin says it all. :contentReference[oaicite:2]{index=2}"
+    },
+    {
+      "text": "A hospital corridor morphs into a recovery track: after a 2004 stroke, he battles through rehab, inspiring the nation while wearing his trademark Giants cap. :contentReference[oaicite:3]{index=3}"
+    },
+    {
+      "text": "Final panel: fans leave carnations at Tokyo Dome, children re-enact his legendary swing. The narrator asks: How will Japan’s next generation carry forward the indomitable spirit of “Mr. Giants”?"
+    }
+  ],
+  "canvasSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "imageParams": {
+    "style": "<style>A multi panel comic strips. 1990s American workplace humor. Clean, minimalist line art with muted colors. One character is a nerdy office worker with glasses</style>"
+  }
+}
