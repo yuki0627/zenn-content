@@ -44,6 +44,26 @@ mulmo movie scripts/snakajima/spacex_shorts.json
 - [インプット JSON](https://github.com/receptron/mulmocast-cli/blob/main/scripts/snakajima/spacex_shorts.json)
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/spacex_shorts.mp4)
 
+コマンド
+
+```sh
+mulmo movie output/nagasima_shigeo.json
+
+```
+
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/nagasima_shigeo.json)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/nagasima_shigeo.mp4)
+
+コマンド
+
+```sh
+mulmo movie output/acclimate.json -l ja
+
+```
+
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/acclimate.json)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/acclimate.mp4)
+
 ## 写真から動画生成
 
 https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/
