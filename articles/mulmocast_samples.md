@@ -54,3 +54,16 @@ mulmo movie food.json
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/food.json)
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
 
+
+## クリップボードから動画生成
+
+クリップボードにコピーしたスクリプトを元に動画を生成します。「-c ja」で同時に日本語のテロップを作成しています。
+
+コマンド
+
+```sh
+mulmo movie __clipboard -c ja
+```
+
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/script-sumple-f1.json) このスクリプトをコピー後に上記のコマンドを実施
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/script_sample_f1_ja.mp4)
