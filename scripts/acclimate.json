@@ -1,0 +1,187 @@
+{
+  "script": {
+    "$mulmocast": {
+      "version": "1.0",
+      "credit": "closing"
+    },
+    "canvasSize": {
+      "width": 1536,
+      "height": 1024
+    },
+    "speechParams": {
+      "provider": "openai",
+      "speakers": {
+        "Presenter": {
+          "displayName": {
+            "en": "Presenter"
+          },
+          "voiceId": "shimmer"
+        }
+      }
+    },
+    "imageParams": {
+      "style": "<style>日本のビジネス漫画風。クリーンなデジタル線画と淡いパステルカラー。スーツ姿のコンサルタント、懐疑的な企業マネージャー、ワイルドな髪とラップトップステッカーを持つ個性的なフリーランススペシャリストが登場。</style>",
+      "provider": "openai"
+    },
+    "audioParams": {
+      "padding": 0.3,
+      "introPadding": 1,
+      "closingPadding": 0.8,
+      "outroPadding": 1
+    },
+    "title": "アクリメイトの共創コンサルティング革命",
+    "references": [
+      {
+        "url": "https://acclimate-inc.com/",
+        "title": "株式会社アクリメイト 公式サイト",
+        "type": "article"
+      }
+    ],
+    "lang": "ja",
+    "beats": [
+      {
+        "speaker": "Presenter",
+        "text": "株式会社アクリメイト - 日本の企業界で新しいビジネスの生まれ方を変えている、ブティック型コンサルティングファームの内側をご紹介します。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "従来のコンサルティングファームとは違い、アクリメイトは単にアドバイスをするだけではありません。クライアントと共に汗をかき、ビジネスを「共創」します。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "アクリメイトのCEO、増井俊介氏。元アクセンチュアのストラテジストで、イノベーションを理論だけでなく、より実践的なものにすることを使命としています。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "ある場面では、大手小売チェーンの役員が停滞する成長率を心配そうに見つめています。アクリメイトのコンサルタントがホワイトボードにカスタマージャーニーマップを描きながら、「顧客が本当に使いたいと思うものを一緒に作りましょう」と提案します。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "彼らのモデルは、フルタイムのコンサルタントと3,600人以上のフリーランサーのネットワークを融合させ、どんな課題にも適応できる柔軟なプロジェクトチームを形成します。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "コミカルな瞬間：サーフシャックからZoomで参加するフリーランサーが「昼は市場参入戦略を最適化し、夕暮れには波を最適化してます」とジョークを飛ばします。"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "重要なプロジェクトの一つで、アクリメイトは大丸松坂屋のイノベーションプロセスを再構築しました。社内アイデアコンテストから本格的なパイロット立ち上げまで、すべてをサポート。（参考：株式会社アクリメイト 公式サイト）"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "最後のフレームでは、満足したクライアントがアクリメイトチームと握手を交わしています。キャプション：「単なるコンサルタントではない。未来の共創者。」"
+      },
+      {
+        "speaker": "Presenter",
+        "text": "",
+        "image": {
+          "type": "image",
+          "source": {
+            "kind": "url",
+            "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/images/mulmocast_credit.png"
+          }
+        },
+        "audio": {
+          "type": "audio",
+          "source": {
+            "kind": "url",
+            "url": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/audio/silent300.mp3"
+          }
+        }
+      }
+    ]
+  },
+  "filename": "test_japanese",
+  "beats": [
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_0_2a936ce9406f86114da9656cf6a4034b9b908035683e9f4c6d535ff2b907633c.mp3",
+      "duration": 9.852,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/0p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_1_2716827a5dfa95dc3ee5b587bcacb67fce3ff8c246f3a873621a26b723c320b1.mp3",
+      "duration": 12.564,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/1p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_2_9eddb2de840e6ce9ea52ae5170199c78713ddafb31e1e4ea6e58f54e6d1e4f69.mp3",
+      "duration": 12.06,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/2p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_3_9610f87a3fbeccf643e596f65eed4e140d2fb0f68bb935ed387584dc9d98f55f.mp3",
+      "duration": 20.868000000000002,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/3p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_4_a1e35fbd3b0d8346c143022f2864584246cd82682f45510572611457ae3525d6.mp3",
+      "duration": 13.260000000000002,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/4p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_5_50b18f0a26acb8f0620d72b4276df689a71f45facadd86dc17387dd23ff79bf3.mp3",
+      "duration": 12.3,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/5p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_6_44fe25337fa1c73ddcf828b22e18a3597344241ebcea3e95eae71b8c14665bfa.mp3",
+      "duration": 17.1,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/6p.png"
+    },
+    {
+      "audioFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/audio/test_japanese/test_japanese_7_9271b9d47ad46fb9bf9a11a018e777f21512f4e0a066143ce98f9ecfddfe43f0.mp3",
+      "duration": 11.552000000000001,
+      "imageFile": "/Users/ktsushima/dev/SingularitySociety/mulmocast/mulmocast-cli/output/images/test_japanese/7p.png"
+    },
+    {
+      "audioFile": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/audio/silent300.mp3",
+      "duration": 0.339592,
+      "imageFile": "https://github.com/receptron/mulmocast-cli/raw/refs/heads/main/assets/images/mulmocast_credit.png"
+    }
+  ],
+  "multiLingual": [
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    },
+    {
+      "multiLingualTexts": {}
+    }
+  ],
+  "state": {
+    "inSession": {
+      "audio": false,
+      "image": true,
+      "video": false,
+      "multiLingual": false,
+      "caption": false,
+      "pdf": false
+    },
+    "inBeatSession": {
+      "audio": {},
+      "image": {},
+      "multiLingual": {},
+      "caption": {}
+    }
+  }
+}

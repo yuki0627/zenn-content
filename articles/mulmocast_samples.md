@@ -44,6 +44,24 @@ mulmo movie scripts/snakajima/spacex_shorts.json
 - [インプット JSON](https://github.com/receptron/mulmocast-cli/blob/main/scripts/snakajima/spacex_shorts.json)
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/spacex_shorts.mp4)
 
+コマンド
+
+```sh
+mulmo movie output/nagasima_shigeo.json
+```
+
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/nagasima_shigeo.json)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/nagasima_shigeo.mp4)
+
+コマンド
+
+```sh
+mulmo movie output/acclimate.json -l ja
+```
+
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/acclimate.json)
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/acclimate.mp4)
+
 ## 写真から動画生成
 
 https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/
@@ -67,3 +85,16 @@ mulmo movie __clipboard -c ja
 
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/script-sumple-f1.json) このスクリプトをコピー後に上記のコマンドを実施
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/script_sample_f1_ja.mp4)
+## AIでHTML作成から動画生成
+
+```sh
+mulmo movie ai2027_html.json
+```
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/ai2027_html/ai2027_html.json)
+  - 作成方法
+    1. Claudeに[ai2027.json](https://github.com/receptron/mulmocast-cli/blob/main/scripts/samples/ai2027.json)をアップロード
+    1. [プロンプト(サンプル)](https://github.com/yuki0627/zenn-content/blob/main/scripts/ai2027_html/prompt/textToHTML.md)を貼り付けて実行
+    - 現状のOpenAI(o3)だとシンプルなHTMLだったため、Claude(Sonnet 4)がおすすめです
+    - 修正や調整が可能なので、現状では、ビジネスプレゼン向きな作成方法としてよいかなとおもいます。
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
+
