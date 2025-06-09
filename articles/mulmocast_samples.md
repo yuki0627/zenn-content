@@ -72,3 +72,17 @@ mulmo movie food.json
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/foods/food.json)
 - [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
 
+
+## AIでHTML作成から動画生成
+
+```sh
+mulmo movie ai2027_html.json
+```
+- [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/ai2027_html/ai2027_html.json)
+  - 作成方法
+    1. Claudeに[ai2027.json](https://github.com/receptron/mulmocast-cli/blob/main/scripts/samples/ai2027.json)をアップロード
+    1. [プロンプト(サンプル)](https://github.com/yuki0627/zenn-content/blob/main/scripts/ai2027_html/prompt/textToHTML.md)を貼り付けて実行
+    - 現状のOpenAI(o3)だとシンプルなHTMLだったため、Claude(Sonnet 4)がおすすめです
+    - 修正や調整が可能なので、現状では、ビジネスプレゼン向きな作成方法としてよいかなとおもいます。
+- [アウトプット mp4](https://github.com/yuki0627/zenn-content/blob/main/output/food.mp4)
+
