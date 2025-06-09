@@ -48,7 +48,6 @@ mulmo movie scripts/snakajima/spacex_shorts.json
 
 ```sh
 mulmo movie output/nagasima_shigeo.json
-
 ```
 
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/nagasima_shigeo.json)
@@ -58,7 +57,6 @@ mulmo movie output/nagasima_shigeo.json
 
 ```sh
 mulmo movie output/acclimate.json -l ja
-
 ```
 
 - [インプット JSON](https://github.com/yuki0627/zenn-content/blob/main/scripts/acclimate.json)
