@@ -34,7 +34,7 @@ mulmo pdf scripts/samples/attention.json
 
 :::details attention.json
 
-``` json
+```json
 {
   "$mulmocast": {
     "version": "1.0",
