@@ -33,6 +33,8 @@ mulmo pdf scripts/samples/attention.json
 インプット
 
 :::details attention.json
+
+``` json
 {
   "$mulmocast": {
     "version": "1.0",
@@ -190,6 +192,8 @@ mulmo pdf scripts/samples/attention.json
     }
   ]
 }
+```
+
 :::
 
 アウトプット
@@ -470,6 +474,8 @@ mulmo movie scripts/snakajima/spacex_shorts.json
 インプット
 
 :::details spacex_shorts.json
+
+```json
 {
   "$mulmocast": {
     "version": "1.0"
@@ -541,6 +547,8 @@ mulmo movie scripts/snakajima/spacex_shorts.json
     "style": "Photo realistic, cinematic."
   }
 }
+```
+
 :::
 
 アウトプット
